@@ -40,6 +40,8 @@ function New-Location() {
         [string]$address,
 
         [string]$address2,
+        
+        [string]$city,
 
         [string]$state,
 
@@ -50,6 +52,8 @@ function New-Location() {
         [int]$manager_id,
 
         [string]$ldap_ou,
+        
+        [string]$currency,
 
         [parameter(mandatory = $true)]
         [string]$url,
